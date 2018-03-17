@@ -1,1 +1,3 @@
-workspace.xml
+#files and directories to be ignored when pushing
+.DS_Store
+.idea
