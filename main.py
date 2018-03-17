@@ -33,11 +33,7 @@ input is their contact information.
 # Figure out how to send a message to a particular persons LinkedIn (Direct Message)
 
 
-
-
-
-#
-
-
-
-#
+# SHould we use Quart-asyncpg instead of psycopg2 as well as quartz to integrate aysncpg (Async databases store
+# the databases writes and reads in cached memory - they are faster but pose more risk for mission critical data that
+# needs to be written to the database. Redis and memcached are AWS services to help speed up an app. We should use async
+# with Redis.
